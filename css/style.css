@@ -15,7 +15,7 @@
     --bg-color: #1f242d;
     --second-bg-color: #323946;
     --text-color: #fff;
-    --main-color: #0ef; 
+    --main-color: rgb(200, 106, 213); 
 }
 
 html {
@@ -413,6 +413,12 @@ span {
 .contact form .btn {
     margin-top: 2rem;
     cursor: pointer;
+}
+
+.contact #msg {
+    color: var(--main-color);
+    font-size: 2rem;
+    text-align: center;
 }
 
 .footer {

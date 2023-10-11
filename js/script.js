@@ -50,7 +50,7 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 /*============ Typed JS ===========*/
 const typed = new Typed('.multiple-text', {
-    strings: ['Web Developer', 'Software QA Tester'],
+    strings: ['Web Developer', 'Web Designer', 'Software QA Tester'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
@@ -73,7 +73,7 @@ function opentab(tabname){
 
 // Handle submit buttom for contact forms
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbzY7bvIAljq5rVkTl6VRTWXiMRKFnGk9NXdI96zo6Qw9-h-nE8TcVGRXTHdb2U8o3kDKQ/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxeSMdTiFhvqHUkqrsg1N6EwdSSWSx35_tSd0EB8hSBiFUwxuAKYMt1L8V7UYQ2L74n/exec'
 const form = document.forms['submit-to-google-sheet']
     form.addEventListener('submit', e => {
               e.preventDefault()
