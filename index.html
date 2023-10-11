@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio by Friolo Honey Grace</title>
+
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header Design --> 
+    <header class="header">
+        <a href="#" class="logo">Grace <span>;</span></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <!-- Home Section Design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1><span>Honey</span> Grace</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Transform code to solve your problems. Everything is a learning experience.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-github' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            <a href="#" class="btn">Download Resume</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/profile.png" alt="">
+        </div>
+    </section>
+
+    <!-- About Section Design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/profile.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p>A highly motivated individual who has a strong background in software development and a sharp eye for detail.</p>
+            
+            <div class="about-titles">
+                <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+                <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('tools')">Tools</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="experience">
+                <ul class="box">
+                    <li><i class='bx bxs-calendar'></i> November 2021 - February 2023</li>
+                    <li> <span> Developer (Software Engineering and Capstone Project)</span></li>
+                    <li><i>La Salle University - Ozamiz</i></li>
+                </ul>
+                <ul class="box">
+                    <li><i class='bx bxs-calendar'></i> April 2023 - July 2023</li>
+                    <li><span>Software Quality Assurance and Developer Intern</span> </li>
+                    <li><i>Go Virtual Assistants Inc. (GoTeam)</i></li>
+                </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+                <ul class="box">
+                    <li><i class='bx bxs-calendar'> 2019 - 2023</i></li>
+                    <li><span>Bachelor of Science in Information Technology</span></li>
+                    <li><i>La Salle University</i></li>
+                </ul>
+                <ul class="box">
+                    <li><i class='bx bxs-calendar'></i> 2017 - 2019</li>
+                    <li><span>INFORMATION AND COMMUNICATIONS TECHNOLOGY</span></li>
+                    <li><i>Ozamiz City National High School</i></li>
+                </ul>
+            </div>
+
+            <div class="tab-contents" id="skills">
+                <ul class="box">
+                    <li><b>Laravel Framework</b></li>
+                    <li class="color"><b>Python and C Programming Language</b></li>
+                    <li><b>MySQL</b></li>
+                    <li class="color"><b>HTML, CSS & Javascript</b></li>
+                    <li><b>Web Designer</b></li>
+                    
+                </ul>
+            </div>
+
+            <div class="tab-contents" id="tools">
+                <ul class="box">
+                    <li><b>Github</b></li>
+                    <li class="color"><b>Bitbucket</b></li>
+                    <li><b>Docker</b></li>
+                    <li class="color"><b>Jira Software</b></li>
+                    <li><b>XAMPP</b></li>
+                    <li class="color"><b>ClickUp</b></li>
+                    <li><b>Bird Eats Bug</b></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section Design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt' ></i>
+                <h3>Web Development</h3>
+                <p>To deliver websites or web apps based on the business requirements</p>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-paint' ></i>
+                <h3>Web Design</h3>
+                <p>Create simple and minimalist design that is less complex</p>
+            </div>
+
+            <div class="services-box">
+                <img src="images/test-icon.png" alt="">
+                <h3>Software Quality Assurance</h3>
+                <p>Ensure a high quality of the website/web application </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section Design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">My <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/portfolio1.png" alt="Dental CMS">
+                <div class="portfolio-layer">
+                    <h4>Dental Clinic Management System</h4>
+                    <p>Help dentist manage patients data effectively</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio2.jpg" alt="Dental CMS">
+                <div class="portfolio-layer">
+                    <h4>Online Appointment System</h4>
+                    <p>Help dentist manage patients appointment online</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio3.jpg" alt="Dental CMS">
+                <div class="portfolio-layer">
+                    <h4>Food Ordering System Design</h4>
+                    <p>Design a Food Ordering System for a school project</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section Design -->
+    <section class="contact" id="contact">
+        <div class="heading">
+            <span id="msg"></span>
+        </div>
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#" name="submit-to-google-sheet">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number" required>
+                <input type="text" placeholder="Email Subject" required>
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+        </section>
+    </section>
+
+    <!-- Footer Design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Grace | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Typed JS -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
