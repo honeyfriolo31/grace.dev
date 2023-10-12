@@ -280,15 +280,15 @@
 
         <form action="POST" name="submit-to-google-sheet">
             <div class="input-box">
-                <input name="Full Name" type="text" placeholder="Full Name" >
-                <input name="Email" type="email" placeholder="Email Address" >
+                <input name="Full Name" type="text" placeholder="Full Name" required>
+                <input name="Email" type="email" placeholder="Email Address" required>
             </div>
             <div class="input-box">
-                <input name="Mobile Number" type="number" placeholder="Mobile Number" >
-                <input name="Email Subject" type="text" placeholder="Email Subject" >
+                <input name="Mobile Number" type="number" placeholder="Mobile Number" required>
+                <input name="Email Subject" type="text" placeholder="Email Subject" required>
             </div>
             <textarea name="Your Message" id="" cols="30" rows="10" placeholder="Your Message" ></textarea>
-            <button class="btn" type="submit">Send Message</button>
+            <button class="btn" type="submit" required>Send Message</button>
         </form>
         </section>
     </section>
