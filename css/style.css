@@ -79,10 +79,12 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 5rem;
 }
 
 .home-img img {
-    width: 35vw;
+    width: 30vw;
+    border-radius: 50%;
     animation: floatImage 4s ease infinite;
 }
 
