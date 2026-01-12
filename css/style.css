@@ -83,8 +83,8 @@ section {
 }
 
 .home-img img {
-    width: 30vw;
-    border-radius: 50%;
+    width: 25vw;
+    border-radius: 20%;
     animation: floatImage 4s ease infinite;
 }
 
@@ -419,6 +419,12 @@ span {
 
 .contact #msg {
     color: var(--main-color);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.contact p{
+    color: var(--text-color);
     font-size: 2rem;
     text-align: center;
 }

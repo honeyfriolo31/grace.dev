@@ -50,7 +50,7 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 /*============ Typed JS ===========*/
 const typed = new Typed('.multiple-text', {
-    strings: ['Web Developer', 'Web Designer', 'Software QA Tester'],
+    strings: ['Software QA Specialist', 'Web Developer', 'Web Designer', 'IT Support'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
@@ -73,18 +73,18 @@ function opentab(tabname){
 
 // Handle submit buttom for contact forms
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbxeSMdTiFhvqHUkqrsg1N6EwdSSWSx35_tSd0EB8hSBiFUwxuAKYMt1L8V7UYQ2L74n/exec'
-const form = document.forms['submit-to-google-sheet']
-    form.addEventListener('submit', e => {
-              e.preventDefault()
-              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                .then(response => {
-                    msg.innerHTML = "Message sent successfully!"
-                    setTimeout(function(){
-                        msg.innerHTML = ""
-                    }, 3000)
-                    form.reset()
-                })
-                .catch(error => console.error('Error!', error.message))
-            })    
+// const scriptURL = 'https://script.google.com/macros/s/AKfycbxeSMdTiFhvqHUkqrsg1N6EwdSSWSx35_tSd0EB8hSBiFUwxuAKYMt1L8V7UYQ2L74n/exec'
+// const form = document.forms['submit-to-google-sheet']
+//     form.addEventListener('submit', e => {
+//               e.preventDefault()
+//               fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+//                 .then(response => {
+//                     msg.innerHTML = "Message sent successfully!"
+//                     setTimeout(function(){
+//                         msg.innerHTML = ""
+//                     }, 3000)
+//                     form.reset()
+//                 })
+//                 .catch(error => console.error('Error!', error.message))
+//             })    
             
